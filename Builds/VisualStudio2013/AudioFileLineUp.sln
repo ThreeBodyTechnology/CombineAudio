@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{5A86E32F-0D59-5D9A-0D66-48C69DB3068D}") = "AudioFileLineUp", "AudioFileLineUp.vcxproj", "{A3DE4663-C2CA-A0F2-1E9D-C72A6A886625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3DE4663-C2CA-A0F2-1E9D-C72A6A886625}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3DE4663-C2CA-A0F2-1E9D-C72A6A886625}.Debug|Win32.Build.0 = Debug|Win32
+		{A3DE4663-C2CA-A0F2-1E9D-C72A6A886625}.Release|Win32.ActiveCfg = Release|Win32
+		{A3DE4663-C2CA-A0F2-1E9D-C72A6A886625}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

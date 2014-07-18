@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="PG1wC4" name="AudioFileLineUp" projectType="consoleapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.AudioFileLineUp" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="NSsp9W" name="AudioFileLineUp">
+    <GROUP id="{0C98DF4B-DEF7-F5ED-3FD7-C5828D293EDA}" name="Source">
+      <FILE id="aou8ka" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="AudioFileLineUp"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="AudioFileLineUp"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="/Users/mengke/coding/SDKs/Mirrors/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="/Users/mengke/coding/SDKs/Mirrors/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="/Users/mengke/coding/SDKs/Mirrors/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="AudioFileLineUp"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="AudioFileLineUp"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../SDKs/JUZE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../SDKs/JUZE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../SDKs/JUZE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
