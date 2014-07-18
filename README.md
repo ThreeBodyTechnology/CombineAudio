@@ -7,3 +7,10 @@ This project uses JUCE library:
 https://github.com/julianstorer/JUCE
 
 Now I'm making the console version, I will add GUI interface in the future.
+
+Currently supported features:
+1. make a whole directory of audio files into a big audio file + an XML file.
+2. working.....
+
+
+Yes I know you need this big audio file back to files, but I haven't finish this function yet.
