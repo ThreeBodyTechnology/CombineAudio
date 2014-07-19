@@ -1,0 +1,22 @@
+﻿生成启动时间为 2014/7/19 21:16:04。
+     1>项目“C:\Users\mengke\Documents\AudioFileLineUp\Builds\VisualStudio2013\AudioFileLineUp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\JuceLibraryCode /I..\..\JuceLibraryCode\modules /Zi /nologo /W4 /WX- /MP /O1 /Oy- /GL /D _CONSOLE /D WIN32 /D _WINDOWS /D NDEBUG /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=1.0.0 /D JUCE_APP_VERSION_HEX=0x10000 /Gm- /EHsc /MT /GS /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\MergeFiles2AudioDirectory.cpp
+         MergeFiles2AudioDirectory.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\\AudioFileLineUp.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"Release\\AudioFileLineUp.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\AudioFileLineUp.lib" /MACHINE:X86 /SAFESEH Release\resources.res
+         Release\\create_simple_audio_writer.obj
+         Release\\MergeFiles2AudioDirectory.obj
+         Release\\AudioDirectory2MergeFiles.obj
+         Release\\m.obj
+         Release\\juce_audio_basics.obj
+         Release\\juce_audio_formats.obj
+         Release\\juce_core.obj
+         正在生成代码
+         已完成代码的生成
+         AudioFileLineUp.vcxproj -> C:\Users\mengke\Documents\AudioFileLineUp\Builds\VisualStudio2013\.\Release\AudioFileLineUp.exe
+     1>已完成生成项目“C:\Users\mengke\Documents\AudioFileLineUp\Builds\VisualStudio2013\AudioFileLineUp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.30

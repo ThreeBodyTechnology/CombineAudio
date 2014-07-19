@@ -558,7 +558,7 @@ struct HashGenerator
         Type result = Type();
 
         while (! t.isEmpty())
-            result = ((Type) multiplier) * result + (Type) t.getAndAdvance();
+            result = multiplier * result + t.getAndAdvance();
 
         return result;
     }

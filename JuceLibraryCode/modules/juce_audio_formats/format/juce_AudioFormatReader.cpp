@@ -162,7 +162,7 @@ void AudioFormatReader::read (AudioSampleBuffer* buffer,
         }
         else
         {
-            HeapBlock<int*> chans ((size_t) numTargetChannels);
+            HeapBlock<int*> chans (numTargetChannels);
             readChannels (*this, chans, buffer, startSample, numSamples, readerStartSample, numTargetChannels);
         }
 

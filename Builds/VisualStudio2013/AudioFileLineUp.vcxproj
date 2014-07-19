@@ -131,7 +131,11 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Main.cpp"/>
+    <ClCompile Include="..\..\Source\main.cpp"/>
+    <ClCompile Include="..\..\Source\unit_test.cpp"/>
+    <ClCompile Include="..\..\Source\create_simple_audio_writer.cpp"/>
+    <ClCompile Include="..\..\Source\MergeFiles2AudioDirectory.cpp"/>
+    <ClCompile Include="..\..\Source\AudioDirectory2MergeFiles.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioDataConverters.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -467,6 +471,9 @@
     <ClCompile Include="..\..\JuceLibraryCode\modules\juce_core\juce_core.cpp"/>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\create_simple_audio_writer.h"/>
+    <ClInclude Include="..\..\Source\MergeFiles2AudioDirectory.h"/>
+    <ClInclude Include="..\..\Source\AudioDirectory2MergeFiles.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioSampleBuffer.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_FloatVectorOperations.h"/>
@@ -511,9 +518,9 @@
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_audio_formats\juce_audio_formats.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharacterFunctions.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_ASCII.h"/>
-    <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF8.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF16.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF32.h"/>
+    <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF8.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_Identifier.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_LocalisedStrings.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_NewLine.h"/>

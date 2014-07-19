@@ -5,7 +5,20 @@
               jucerVersion="3.1.0">
   <MAINGROUP id="NSsp9W" name="AudioFileLineUp">
     <GROUP id="{0C98DF4B-DEF7-F5ED-3FD7-C5828D293EDA}" name="Source">
-      <FILE id="aou8ka" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="G6AnaS" name="main.cpp" compile="1" resource="0" file="Source/main.cpp"/>
+      <FILE id="K9nxVf" name="unit_test.cpp" compile="1" resource="0" file="Source/unit_test.cpp"/>
+      <FILE id="vrK6tD" name="create_simple_audio_writer.cpp" compile="1"
+            resource="0" file="Source/create_simple_audio_writer.cpp"/>
+      <FILE id="lYxNAs" name="create_simple_audio_writer.h" compile="0" resource="0"
+            file="Source/create_simple_audio_writer.h"/>
+      <FILE id="G7iIlZ" name="MergeFiles2AudioDirectory.cpp" compile="1"
+            resource="0" file="Source/MergeFiles2AudioDirectory.cpp"/>
+      <FILE id="gNpUnW" name="MergeFiles2AudioDirectory.h" compile="0" resource="0"
+            file="Source/MergeFiles2AudioDirectory.h"/>
+      <FILE id="guorf1" name="AudioDirectory2MergeFiles.cpp" compile="1"
+            resource="0" file="Source/AudioDirectory2MergeFiles.cpp"/>
+      <FILE id="QHWzwS" name="AudioDirectory2MergeFiles.h" compile="0" resource="0"
+            file="Source/AudioDirectory2MergeFiles.h"/>
     </GROUP>
   </MAINGROUP>
   <EXPORTFORMATS>
@@ -30,9 +43,9 @@
                        isDebug="0" optimisation="2" targetName="AudioFileLineUp"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="../../SDKs/JUZE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../SDKs/JUZE/modules"/>
-        <MODULEPATH id="juce_audio_basics" path="../../SDKs/JUZE/modules"/>
+        <MODULEPATH id="juce_core" path="C:\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\SDKs\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:\SDKs\JUCE\modules"/>
       </MODULEPATHS>
     </VS2013>
   </EXPORTFORMATS>
@@ -41,5 +54,7 @@
     <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
     <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
   </MODULES>
-  <JUCEOPTIONS/>
+  <JUCEOPTIONS JUCE_USE_FLAC="disabled" JUCE_USE_OGGVORBIS="disabled" JUCE_USE_MP3AUDIOFORMAT="disabled"
+               JUCE_USE_LAME_AUDIO_FORMAT="disabled" JUCE_USE_WINDOWS_MEDIA_FORMAT="disabled"
+               JUCE_FORCE_DEBUG="enabled" JUCE_LOG_ASSERTIONS="enabled" JUCE_CHECK_MEMORY_LEAKS="enabled"/>
 </JUCERPROJECT>

@@ -60,7 +60,7 @@ MemoryInputStream::~MemoryInputStream()
 
 int64 MemoryInputStream::getTotalLength()
 {
-    return (int64) dataSize;
+    return dataSize;
 }
 
 int MemoryInputStream::read (void* const buffer, const int howMany)
@@ -89,7 +89,7 @@ bool MemoryInputStream::setPosition (const int64 pos)
 
 int64 MemoryInputStream::getPosition()
 {
-    return (int64) position;
+    return position;
 }
 
 

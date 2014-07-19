@@ -100,7 +100,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Main.cpp">
+    <ClCompile Include="..\..\Source\main.cpp">
+      <Filter>AudioFileLineUp\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\unit_test.cpp">
+      <Filter>AudioFileLineUp\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\create_simple_audio_writer.cpp">
+      <Filter>AudioFileLineUp\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MergeFiles2AudioDirectory.cpp">
+      <Filter>AudioFileLineUp\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AudioDirectory2MergeFiles.cpp">
       <Filter>AudioFileLineUp\Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioDataConverters.cpp">
@@ -459,6 +471,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\create_simple_audio_writer.h">
+      <Filter>AudioFileLineUp\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MergeFiles2AudioDirectory.h">
+      <Filter>AudioFileLineUp\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AudioDirectory2MergeFiles.h">
+      <Filter>AudioFileLineUp\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h">
       <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
     </ClInclude>
@@ -591,13 +612,13 @@
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_ASCII.h">
       <Filter>Juce Modules\juce_core\text</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF8.h">
-      <Filter>Juce Modules\juce_core\text</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF16.h">
       <Filter>Juce Modules\juce_core\text</Filter>
     </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF32.h">
+      <Filter>Juce Modules\juce_core\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_CharPointer_UTF8.h">
       <Filter>Juce Modules\juce_core\text</Filter>
     </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_core\text\juce_Identifier.h">
