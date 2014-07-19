@@ -27,3 +27,5 @@
 *.pdb
 *.ilk
 *.sdf
+Builds/VisualStudio2013/Release/AudioFileLineUp.log
+Builds/VisualStudio2013/Debug/AudioFileLineUp.log

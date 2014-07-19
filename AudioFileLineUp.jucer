@@ -38,9 +38,11 @@
     <VS2013 targetFolder="Builds/VisualStudio2013">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="1" optimisation="1" targetName="AudioFileLineUp"/>
+                       isDebug="1" optimisation="1" targetName="AudioFileLineUp" useRuntimeLibDLL="0"
+                       characterSet="Unicode"/>
         <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
-                       isDebug="0" optimisation="2" targetName="AudioFileLineUp"/>
+                       isDebug="0" optimisation="2" targetName="AudioFileLineUp" alwaysGenerateDebugSymbols="0"
+                       useRuntimeLibDLL="0" characterSet="Unicode"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_core" path="C:\SDKs\JUCE\modules"/>
