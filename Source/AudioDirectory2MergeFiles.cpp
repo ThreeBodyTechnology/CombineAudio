@@ -167,7 +167,16 @@ void SaveSomeFileToMergeFile( AudioSampleBuffer& muttingBuffer,
 	ScopedPointer<XmlElement> thisBigFileXmlElement = new XmlElement("merge_file");
 	thisBigFileXmlElement->setAttribute("name",bigFile.getFileName());
 
-	int64 big_file_size_counter = 0;
+	int halfSize = (int)( sampleRate );
+	AudioSampleBuffer fristBuffer(channelNum,halfSize*2);
+	fristBuffer.clear();
+	for(int i = 0; i < channelNum; ++i) fristBuffer.getWritePointer(i)[halfSize] = 1.0f;
+
+	if(!writer->writeFromAudioSampleBuffer(fristBuffer,0,fristBuffer.getNumSamples())) {
+		wcout << "音频文件写入错误,退出了啊" << endl;
+	}
+
+	int64 big_file_size_counter = fristBuffer.getNumSamples();
 
 	while(readers.size() > 0) {
 		if(!writer->writeFromAudioSampleBuffer(muttingBuffer,0,muttingBuffer.getNumSamples())) {
