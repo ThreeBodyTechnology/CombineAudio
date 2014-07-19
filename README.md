@@ -26,7 +26,7 @@ through NEVE preamp,but you don't have NEVE mixer.you only have one NEVE 1073 pa
 may want to all tracks through 1073 and record back one by one. you never done this easy!!!
 and now CombineAudio can help . what you need to do is:
 
-step1:
+###step1:
 	open CombineAudio , you will see a console open(Now I'm making the console version
 	, I will add GUI interface in the future). type in "1" if you want combine files.
 	then type in which dir you want combine.
@@ -39,16 +39,16 @@ step1:
 	and a click sound in the beginning of every combine files. so that you can "see" the delay 
 	you process the combine files.
 
-step2:
+###step2:
 	you will be request a new dir to save the combine files,type in a new dir. and waitting please.
 	the console will be close when work is done. a dir "xxxx.merge" will create. all combine files 
 	will be there.
 
-step3:
+###step3:
 	when the work is done,in this new dir you can see several combine files and a xml file. never change
 	this xml file! and never change the name of all combine files!
 
-step4:
+###step4:
 	now you can process what you want to all combine files. like add a compressor, EQ , hardware preamp ...
 	do what you want and save the files in same sample rate. the only thing you have to care about is ,
 	you can NEVER CHANGE THE TIME ! like add some thing in the beginning of the file ,add a delay
@@ -58,11 +58,11 @@ step4:
 	the click sound will be change to some thing like a "sinc". you can zoom in and see how click sound change.
 	if there has delay , kill it before step5. and then ,save all combine files(don't change file name).
 
-step5:
+###step5:
 	now you want cut combine files back, reopen CombineAudio ,type in "2" .type in the dir all combine files lives.
 	like "abc.merge". type in the dir where you want save files and wait...
 
-step6:
+###step6:
 	files will go back to small files in the dir you type in. include all sub-dir. and then ,have fun!
 
 中文版:
