@@ -98,7 +98,7 @@ void SreachSourcePathAudioFileFetchArray(const File& sourcePath,OwnedArray<Audio
 		a->m_length = 0;
 		a->m_start_in_target_file = 0;
 		a->m_target_big_file_name = String::empty;
-		cout << "linking:" << childPaths[i].getRelativePathFrom(sourcePath) << endl;
+		//cout << "linking:" << childPaths[i].getRelativePathFrom(sourcePath) << endl;
 		array.add(a);
 	}
 	cout << "all wav file number:" << i << endl;
@@ -170,7 +170,7 @@ void SaveSomeFileToMergeFile( AudioSampleBuffer& muttingBuffer,
 	int64 big_file_size_counter = 0;
 
 	while(readers.size() > 0) {
-		if(!writer->writeFromAudioSampleBuffer(muttingBuffer,0,-1)) {
+		if(!writer->writeFromAudioSampleBuffer(muttingBuffer,0,muttingBuffer.getNumSamples())) {
 			wcout << "音频文件写入错误,退出了啊" << endl;
 		}
 		big_file_size_counter += muttingBuffer.getNumSamples();
@@ -200,7 +200,7 @@ void SaveSomeFileToMergeFile( AudioSampleBuffer& muttingBuffer,
 		cout << ".";
 
 	}
-	if(!writer->writeFromAudioSampleBuffer(muttingBuffer,0,-1)) {
+	if(!writer->writeFromAudioSampleBuffer(muttingBuffer,0,muttingBuffer.getNumSamples())) {
 		wcout << "音频文件写入错误,退出了啊" << endl;
 	}
 	masterXml->addChildElement(thisBigFileXmlElement.release());
