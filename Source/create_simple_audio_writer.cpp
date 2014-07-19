@@ -1,3 +1,15 @@
+/*
+  ==============================================================================
+
+  This file is part of the CombineAudio tool.
+
+  Permission is granted to use this software under the terms of either:
+  a) the GPL v2 (or any later version)
+
+  Details of these licenses can be found at: www.gnu.org/licenses
+
+  ==============================================================================
+*/
 
 #include "create_simple_audio_writer.h"
 #include <iostream>

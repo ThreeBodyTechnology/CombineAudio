@@ -1,12 +1,16 @@
 /*
-==============================================================================
+  ==============================================================================
 
-This file was auto-generated!
+  This file is part of the CombineAudio tool.
 
-It contains the basic startup code for a Juce application.
+  Permission is granted to use this software under the terms of either:
+  a) the GPL v2 (or any later version)
 
-==============================================================================
+  Details of these licenses can be found at: www.gnu.org/licenses
+
+  ==============================================================================
 */
+  
 #include <iostream>
 #include <tuple>
 #include <cmath>
